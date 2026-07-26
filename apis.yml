@@ -1,7 +1,18 @@
 aid: efex-ventu
 name: EFEX (Ventu)
-description: EFEX (Ventu) is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  EFEX (efex.com, formerly efexpay.com) is a cross-border payments and treasury
+  fintech serving businesses across the Americas. It enables international
+  transfers to 140+ countries, bulk and mass payouts for payroll and
+  multi-beneficiary disbursement, multi-currency business accounts (USD, MXN,
+  EUR, GBP, CAD, JPY), international collections in local currency across 24+
+  countries, and FX and currency management for treasury optimization.
+  Headquartered in Palo Alto, California with operations across Mexico (Mexico
+  City, Monterrey, Tijuana, Queretaro, Guadalajara) and Colombia, EFEX is
+  authorized by Mexico's CNBV as a money transmitter (registration 22469) and
+  regulated by FinCEN in the United States. Backed by 500 Global. As of this
+  profile the company exposes a business web/app product but no public developer
+  API, developer portal, or API documentation.
 url: https://raw.githubusercontent.com/api-evangelist/efex-ventu/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,31 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://efex.com/favicon.svg
 tags:
 - Company
+- Payments
+- Cross-Border Payments
+- Foreign Exchange
+- Fintech
+- Money Transfer
+- Treasury
+- Multi-Currency
+- Mexico
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +53,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://efexpay.com
+  url: https://efex.com
+- type: About
+  url: https://efex.com/sobre-efex/
+- type: Support
+  url: https://efex.com/preguntas-frecuentes/
+- type: Login
+  url: https://app.efex.com/login
+- type: TermsOfService
+  url: https://legal.efexpay.com/TermsOfService
+- type: YouTube
+  url: https://www.youtube.com/@EFEXPAY_/videos
+- type: DomainSecurity
+  url: security/efex-ventu-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
